@@ -1035,3 +1035,5 @@
 /home/tovcha/Documentos/MauiApp2/MauiApp2/obj/Debug/net8.0-android/stamp/_GeneratePackageManagerJava.stamp
 /home/tovcha/Documentos/MauiApp2/MauiApp2/obj/Debug/net8.0-android/stamp/_ResolveLibraryProjectImports.stamp
 /home/tovcha/Documentos/MauiApp2/MauiApp2/obj/Debug/net8.0-android/android/assets/System.Private.CoreLib.dll
+/home/tovcha/Documentos/MauiApp2/MauiApp2/obj/Debug/net8.0-android/MauiApp2.sourcelink.json
+/home/tovcha/Documentos/MauiApp2/MauiApp2/obj/Debug/net8.0-android/resizetizer/r/drawable/mmm.png

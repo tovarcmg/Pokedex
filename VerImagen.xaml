@@ -3,19 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiApp2.VerImagen">
 
-   
-        <ScrollView>
+    <StackLayout>
+        <!-- Centered Image -->
+        <Image Source="mmm.png"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"/>
+    </StackLayout>
 
-            <FlexLayout x:Name="flexLayout"
-                        Wrap="Wrap"
-                        JustifyContent="SpaceAround">
-
-                <ImageButton
-                    
-                    Source="https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/PGO/PGO_ES_20.png"
-                    HeightRequest="480"/>
-
-            </FlexLayout>
-        </ScrollView>
-  
 </ContentPage>
