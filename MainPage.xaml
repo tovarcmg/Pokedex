@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.MainPage">
+
+    <ScrollView>
+
+        <FlexLayout x:Name="flexLayout"
+                    Wrap="Wrap"
+                    JustifyContent="SpaceAround">
+
+            <ImageButton
+                BackgroundColor="AliceBlue"
+                WidthRequest="120"
+                Clicked="ImageButton_Clicked"
+                Source="https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV01/SV01_ES_43.png"
+                HeightRequest="180"/>
+
+            <ImageButton
+                WidthRequest="120"
+                Clicked="ImageButton_Clicked"
+                Source="https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH5/SWSH5_ES_92.png"
+                HeightRequest="180"/>
+
+            <ImageButton
+                WidthRequest="120"
+                Clicked="ImageButton_Clicked"
+                Source="https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH3/SWSH3_ES_99.png"
+                HeightRequest="180"/>
+
+            <ImageButton
+                WidthRequest="120"
+                Clicked="ImageButton_Clicked"
+                Source="https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV4PT5/SV4PT5_ES_117.png"
+                HeightRequest="180"/>
+
+            <ImageButton
+                WidthRequest="120"
+                Clicked="ImageButton_Clicked"
+                Source="https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV3PT5/SV3PT5_ES_80.png"
+                HeightRequest="180"/>
+
+            <ImageButton
+                WidthRequest="120"
+                Clicked="ImageButton_Clicked"
+                Source="https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/XY9/XY9_ES_20.png"
+                HeightRequest="180"/>
+
+            <ImageButton
+                WidthRequest="120"
+                Clicked="ImageButton_Clicked"
+                Source="https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM2/SM2_ES_49.png"
+                HeightRequest="180"/>
+
+            <ImageButton
+                WidthRequest="120"
+                Clicked="ImageButton_Clicked"
+                Source="https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM10/SM10_ES_43.png"
+                HeightRequest="180"/>
+
+            <ImageButton
+                WidthRequest="120"
+                Clicked="ImageButton_Clicked"
+                Source="https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/XY12/XY12_ES_27.png"
+                HeightRequest="180"/>
+
+            <ImageButton
+                WidthRequest="120"
+                Clicked="ImageButton_Clicked"
+                Source="https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/PGO/PGO_ES_20.png"
+                HeightRequest="180"/>
+
+        </FlexLayout>
+    </ScrollView>
+
+</ContentPage>
