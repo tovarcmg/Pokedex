@@ -1,27 +1,49 @@
-﻿namespace MauiApp2;
+﻿using System.Collections.ObjectModel;
+
+namespace MauiApp2;
 
 public partial class MainPage : ContentPage
 {
+	public ObservableCollection<oneitem> MyItems { get; set; } = new ObservableCollection<oneitem>();
+
 	public MainPage()
 	{
 		InitializeComponent();
+		ListView1.ItemsSource = MyItems;
+		BindingContext = this;
+		cargarPokemones();
 	}
 
-	private void ImageButton_Clicked(object sender, EventArgs e)
+	private void lstAuditorias_ItemSelected(object sender, SelectedItemChangedEventArgs e)
 	{
-		Navigation.PushAsync(new VerImagen());
+		oneitem seleccionado = e.SelectedItem as oneitem;
+
+		if (seleccionado.myitemname == "Slowbro")
+		{
+			Versiones page = new Versiones("Slowbro");
+			Navigation.PushAsync(page);
+		}
+		else if (seleccionado.myitemname == "Charizard")
+		{
+			Versiones page = new Versiones("Charizard");
+			Navigation.PushAsync(page);
+		}
 	}
 
-	// private void OnCounterClicked(object sender, EventArgs e)
-	// {
-	// 	count++;
+	public void cargarPokemones()
+	{
+		oneitem Slowbro = new oneitem();
+		Slowbro.myitemname = "Slowbro";
+		MyItems.Add(Slowbro);
 
-	// 	if (count == 1)
-	// 		CounterBtn.Text = $"Clicked {count} time";
-	// 	else
-	// 		CounterBtn.Text = $"Clicked {count} times";
+		oneitem Charizard = new oneitem();
+		Charizard.myitemname = "Charizard";
+		MyItems.Add(Charizard);
+	}
 
-	// 	SemanticScreenReader.Announce(CounterBtn.Text);
-	// }
+	public class oneitem
+	{
+		public string myitemname { get; set; }
+	}
 }
 

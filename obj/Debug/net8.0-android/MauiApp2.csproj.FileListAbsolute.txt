@@ -1036,4 +1036,14 @@
 /home/tovcha/Documentos/MauiApp2/MauiApp2/obj/Debug/net8.0-android/stamp/_ResolveLibraryProjectImports.stamp
 /home/tovcha/Documentos/MauiApp2/MauiApp2/obj/Debug/net8.0-android/android/assets/System.Private.CoreLib.dll
 /home/tovcha/Documentos/MauiApp2/MauiApp2/obj/Debug/net8.0-android/MauiApp2.sourcelink.json
-/home/tovcha/Documentos/MauiApp2/MauiApp2/obj/Debug/net8.0-android/resizetizer/r/drawable/mmm.png
+/home/tovcha/Documentos/MauiApp2/MauiApp2/obj/Debug/net8.0-android/resizetizer/r/drawable/charizard.png
+/home/tovcha/Documentos/MauiApp2/MauiApp2/obj/Debug/net8.0-android/resizetizer/r/drawable/slowbro2.png
+/home/tovcha/Documentos/MauiApp2/MauiApp2/obj/Debug/net8.0-android/resizetizer/r/drawable/slowbro1.png
+/home/tovcha/Documentos/MauiApp2/MauiApp2/obj/Debug/net8.0-android/resizetizer/r/drawable/slowbro4.png
+/home/tovcha/Documentos/MauiApp2/MauiApp2/obj/Debug/net8.0-android/resizetizer/r/drawable/slowbro5.png
+/home/tovcha/Documentos/MauiApp2/MauiApp2/obj/Debug/net8.0-android/resizetizer/r/drawable/slowbro3.png
+/home/tovcha/Documentos/MauiApp2/MauiApp2/obj/Debug/net8.0-android/resizetizer/r/drawable/slowbro8.png
+/home/tovcha/Documentos/MauiApp2/MauiApp2/obj/Debug/net8.0-android/resizetizer/r/drawable/slowbro7.png
+/home/tovcha/Documentos/MauiApp2/MauiApp2/obj/Debug/net8.0-android/resizetizer/r/drawable/slowbro6.png
+/home/tovcha/Documentos/MauiApp2/MauiApp2/obj/Debug/net8.0-android/resizetizer/r/drawable/slowbro10.png
+/home/tovcha/Documentos/MauiApp2/MauiApp2/obj/Debug/net8.0-android/resizetizer/r/drawable/slowbro9.png

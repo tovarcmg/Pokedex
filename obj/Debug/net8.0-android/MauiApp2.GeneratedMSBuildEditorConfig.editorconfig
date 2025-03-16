@@ -51,3 +51,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.VerImagen.xaml
 build_metadata.AdditionalFiles.TargetPath = VerImagen.xaml
 build_metadata.AdditionalFiles.RelativePath = VerImagen.xaml
+
+[/home/tovcha/Documentos/MauiApp2/MauiApp2/Versiones.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.Versiones.xaml
+build_metadata.AdditionalFiles.TargetPath = Versiones.xaml
+build_metadata.AdditionalFiles.RelativePath = Versiones.xaml

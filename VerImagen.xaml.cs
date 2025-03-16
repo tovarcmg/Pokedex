@@ -2,11 +2,11 @@
 
 public partial class VerImagen : ContentPage
 {
-	int clickTotal;
-
-	public VerImagen()
+	public VerImagen(string file)
 	{
 		InitializeComponent();
+
+		imageZoom.Source = ImageSource.FromFile(file);
 	}
 }
 

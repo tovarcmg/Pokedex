@@ -5,7 +5,8 @@
 
     <StackLayout>
         <!-- Centered Image -->
-        <Image Source="mmm.png"
+        <Image 
+            x:Name="imageZoom"
                VerticalOptions="Center"
                HorizontalOptions="Center"/>
     </StackLayout>
