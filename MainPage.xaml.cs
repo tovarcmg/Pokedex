@@ -28,6 +28,11 @@ public partial class MainPage : ContentPage
 			Versiones page = new Versiones("Charizard");
 			Navigation.PushAsync(page);
 		}
+		else if (seleccionado.myitemname == "Dragonite")
+		{
+			Versiones page = new Versiones("Dragonite");
+			Navigation.PushAsync(page);
+		}
 	}
 
 	public void cargarPokemones()
@@ -39,6 +44,10 @@ public partial class MainPage : ContentPage
 		oneitem Charizard = new oneitem();
 		Charizard.myitemname = "Charizard";
 		MyItems.Add(Charizard);
+
+		oneitem Dragonite = new oneitem();
+		Dragonite.myitemname = "Dragonite";
+		MyItems.Add(Dragonite);
 	}
 
 	public class oneitem

@@ -2,16 +2,12 @@
 
 public partial class Versiones : ContentPage
 {
-	string imagenPNG = "";
-
 	public Versiones(string pokemon)
 	{
 		InitializeComponent();
 
 		if (pokemon == "Slowbro")
 		{
-			imagenPNG = "slowbro1.png";
-
 			for (int i = 1; i < 11; i++)
 			{
 				// add imageButton 
@@ -31,21 +27,41 @@ public partial class Versiones : ContentPage
 		}
 		else if (pokemon == "Charizard")
 		{
-			imagenPNG = "charizard.png";
-
-			// add imageButton 
-			ImageButton imageButton = new ImageButton
+			for (int i = 1; i < 5; i++)
 			{
-				Source = "charizard.png",
-				HeightRequest = 180,
-				WidthRequest = 120,
-				Aspect = Aspect.AspectFit,
-			};
+				// add imageButton 
+				ImageButton imageButton = new ImageButton
+				{
+					Source = "charizard" + i + ".png",
+					HeightRequest = 180,
+					WidthRequest = 120,
+					Aspect = Aspect.AspectFit,
+				};
 
-			imageButton.Clicked += ImageButton_Clicked;
+				imageButton.Clicked += ImageButton_Clicked;
 
-			// add image to FlexLayout
-			flexLayout.Children.Add(imageButton);
+				// add image to FlexLayout
+				flexLayout.Children.Add(imageButton);
+			}
+		}
+		else if (pokemon == "Dragonite")
+		{
+			for (int i = 1; i < 2; i++)
+			{
+				// add imageButton 
+				ImageButton imageButton = new ImageButton
+				{
+					Source = "dragonite" + i + ".png",
+					HeightRequest = 180,
+					WidthRequest = 120,
+					Aspect = Aspect.AspectFit,
+				};
+
+				imageButton.Clicked += ImageButton_Clicked;
+
+				// add image to FlexLayout
+				flexLayout.Children.Add(imageButton);
+			}
 		}
 	}
 

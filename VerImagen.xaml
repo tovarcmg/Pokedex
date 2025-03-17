@@ -7,8 +7,8 @@
         <!-- Centered Image -->
         <Image 
             x:Name="imageZoom"
-               VerticalOptions="Center"
-               HorizontalOptions="Center"/>
+               VerticalOptions="FillAndExpand"
+               />
     </StackLayout>
 
 </ContentPage>
