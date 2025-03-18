@@ -14,13 +14,6 @@
                     JustifyContent="SpaceAround"
                     HorizontalOptions="FillAndExpand">
 
-            <!-- <ImageButton
-                x:Name="imageB"
-                WidthRequest="120"
-                Clicked="ImageButton_Clicked"
-                Source="slowbro.png"
-                HeightRequest="180"/> -->
-
         </FlexLayout>
 
     </ScrollView>

@@ -6,7 +6,7 @@
     <ListView x:Name="ListView1" ItemSelected="lstAuditorias_ItemSelected">
         <ListView.ItemTemplate>
             <DataTemplate>
-                <TextCell Text="{Binding myitemname}"
+                <TextCell Text="{Binding nombre}"
                     TextColor="Salmon"
                           Detail="Tap para ver cartas"/>
             </DataTemplate>

@@ -4,73 +4,39 @@ namespace MauiApp2;
 
 public partial class MainPage : ContentPage
 {
-	public ObservableCollection<oneitem> MyItems { get; set; } = new ObservableCollection<oneitem>();
+    public ObservableCollection<Pokemon> MyItems { get; set; } = new ObservableCollection<Pokemon>();
 
-	public MainPage()
-	{
-		InitializeComponent();
-		ListView1.ItemsSource = MyItems;
-		BindingContext = this;
-		cargarPokemones();
-	}
+    public MainPage()
+    {
+        InitializeComponent();
 
-	private void lstAuditorias_ItemSelected(object sender, SelectedItemChangedEventArgs e)
-	{
-		oneitem seleccionado = e.SelectedItem as oneitem;
+        MyItems = new ObservableCollection<Pokemon>();
+        ListView1.ItemsSource = MyItems;
+        BindingContext = this;
+        cargarPokemones();
+    }
 
-		if (seleccionado.myitemname == "Slowbro")
-		{
-			Versiones page = new Versiones("Slowbro");
-			Navigation.PushAsync(page);
-		}
-		else if (seleccionado.myitemname == "Charizard")
-		{
-			Versiones page = new Versiones("Charizard");
-			Navigation.PushAsync(page);
-		}
-		else if (seleccionado.myitemname == "Dragonite")
-		{
-			Versiones page = new Versiones("Dragonite");
-			Navigation.PushAsync(page);
-		}
-		else if (seleccionado.myitemname == "Eevee")
-		{
-			Versiones page = new Versiones("Eevee");
-			Navigation.PushAsync(page);
-		}
-		else if (seleccionado.myitemname == "Mewtwo")
-		{
-			Versiones page = new Versiones("Mewtwo");
-			Navigation.PushAsync(page);
-		}
-	}
+    private void lstAuditorias_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+    {
+        Pokemon seleccionado = e.SelectedItem as Pokemon;
 
-	public void cargarPokemones()
-	{
-		oneitem Slowbro = new oneitem();
-		Slowbro.myitemname = "Slowbro";
-		MyItems.Add(Slowbro);
+        Versiones page = new Versiones(seleccionado.nombre);
+        Navigation.PushAsync(page);
+    }
 
-		oneitem Charizard = new oneitem();
-		Charizard.myitemname = "Charizard";
-		MyItems.Add(Charizard);
+    public void cargarPokemones()
+    {
+        string[] pokemones = new string[] { "Slowbro", "Charizard", "Dragonite", "Eevee", "Mewtwo" };
 
-		oneitem Dragonite = new oneitem();
-		Dragonite.myitemname = "Dragonite";
-		MyItems.Add(Dragonite);
+        foreach (var item in pokemones)
+        {
+            MyItems.Add(new Pokemon { nombre = item });
+        }
+    }
 
-		oneitem Eevee = new oneitem();
-		Eevee.myitemname = "Eevee";
-		MyItems.Add(Eevee);
-
-		oneitem Mewtwo = new oneitem();
-		Mewtwo.myitemname = "Mewtwo";
-		MyItems.Add(Mewtwo);
-	}
-
-	public class oneitem
-	{
-		public string myitemname { get; set; }
-	}
+    public class Pokemon
+    {
+        public string nombre { get; set; }
+    }
 }
 
