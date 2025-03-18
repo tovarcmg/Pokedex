@@ -6,21 +6,10 @@ public partial class Versiones : ContentPage
     {
         InitializeComponent();
 
-
-        // Dictionary to map Pokemon names to the number of images
-        var pokemonImageCounts = new Dictionary<string, int>
-        {
-            { "Slowbro", 10 },
-            { "Charizard", 10 },
-            { "Dragonite", 1 },
-            { "Eevee", 1 },
-            { "Mewtwo", 6 }
-        };
-
         // Check if the pokemon exists in the dictionary and add ImageButton accordingly
-        if (pokemonImageCounts.ContainsKey(pokemon))
+        if (((App)App.Current).pokemonImageCounts.Any(x => x.nombre == pokemon))
         {
-            int imageCount = pokemonImageCounts[pokemon];
+            int imageCount = ((App)App.Current).pokemonImageCounts.Where(x => x.nombre == pokemon).FirstOrDefault().cartas;
 
             for (int i = 1; i <= imageCount; i++)
             {

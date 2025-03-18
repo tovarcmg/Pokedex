@@ -8,7 +8,7 @@
             <DataTemplate>
                 <TextCell Text="{Binding nombre}"
                     TextColor="Salmon"
-                          Detail="Tap para ver cartas"/>
+                          Detail="{Binding desc}"/>
             </DataTemplate>
         </ListView.ItemTemplate>
     </ListView>
