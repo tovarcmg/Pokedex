@@ -27,7 +27,7 @@ public partial class Versiones : ContentPage
 		}
 		else if (pokemon == "Charizard")
 		{
-			for (int i = 1; i < 5; i++)
+			for (int i = 1; i < 11; i++)
 			{
 				// add imageButton 
 				ImageButton imageButton = new ImageButton
