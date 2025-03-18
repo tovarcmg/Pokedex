@@ -27,7 +27,7 @@ public partial class Versiones : ContentPage
 		}
 		else if (pokemon == "Charizard")
 		{
-			for (int i = 1; i < 11; i++)
+			for (int i = 1; i < 5; i++)
 			{
 				// add imageButton 
 				ImageButton imageButton = new ImageButton
@@ -52,6 +52,25 @@ public partial class Versiones : ContentPage
 				ImageButton imageButton = new ImageButton
 				{
 					Source = "dragonite" + i + ".png",
+					HeightRequest = 180,
+					WidthRequest = 120,
+					Aspect = Aspect.AspectFit,
+				};
+
+				imageButton.Clicked += ImageButton_Clicked;
+
+				// add image to FlexLayout
+				flexLayout.Children.Add(imageButton);
+			}
+		}
+		else if (pokemon == "Eevee")
+		{
+			for (int i = 1; i < 2; i++)
+			{
+				// add imageButton 
+				ImageButton imageButton = new ImageButton
+				{
+					Source = "eevee" + i + ".png",
 					HeightRequest = 180,
 					WidthRequest = 120,
 					Aspect = Aspect.AspectFit,

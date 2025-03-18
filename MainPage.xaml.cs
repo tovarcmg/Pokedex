@@ -33,6 +33,11 @@ public partial class MainPage : ContentPage
 			Versiones page = new Versiones("Dragonite");
 			Navigation.PushAsync(page);
 		}
+		else if (seleccionado.myitemname == "Eevee")
+		{
+			Versiones page = new Versiones("Eevee");
+			Navigation.PushAsync(page);
+		}
 	}
 
 	public void cargarPokemones()
@@ -48,6 +53,10 @@ public partial class MainPage : ContentPage
 		oneitem Dragonite = new oneitem();
 		Dragonite.myitemname = "Dragonite";
 		MyItems.Add(Dragonite);
+
+		oneitem Eevee = new oneitem();
+		Eevee.myitemname = "Eevee";
+		MyItems.Add(Eevee);
 	}
 
 	public class oneitem

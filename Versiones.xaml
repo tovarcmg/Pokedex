@@ -6,8 +6,13 @@
     <ScrollView>
 
         <FlexLayout x:Name="flexLayout"
+                    AlignContent="Start"
+                    AlignItems="Start"
+                    Direction="Row"
                     Wrap="Wrap"
-                    JustifyContent="SpaceAround">
+                    BackgroundColor="AliceBlue"
+                    JustifyContent="SpaceAround"
+                    HorizontalOptions="FillAndExpand">
 
             <!-- <ImageButton
                 x:Name="imageB"
