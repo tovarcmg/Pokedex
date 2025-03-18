@@ -38,6 +38,11 @@ public partial class MainPage : ContentPage
 			Versiones page = new Versiones("Eevee");
 			Navigation.PushAsync(page);
 		}
+		else if (seleccionado.myitemname == "Mewtwo")
+		{
+			Versiones page = new Versiones("Mewtwo");
+			Navigation.PushAsync(page);
+		}
 	}
 
 	public void cargarPokemones()
@@ -57,6 +62,10 @@ public partial class MainPage : ContentPage
 		oneitem Eevee = new oneitem();
 		Eevee.myitemname = "Eevee";
 		MyItems.Add(Eevee);
+
+		oneitem Mewtwo = new oneitem();
+		Mewtwo.myitemname = "Mewtwo";
+		MyItems.Add(Mewtwo);
 	}
 
 	public class oneitem

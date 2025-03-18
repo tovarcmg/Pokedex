@@ -82,6 +82,25 @@ public partial class Versiones : ContentPage
 				flexLayout.Children.Add(imageButton);
 			}
 		}
+		else if (pokemon == "Mewtwo")
+		{
+			for (int i = 1; i < 7; i++)
+			{
+				// add imageButton 
+				ImageButton imageButton = new ImageButton
+				{
+					Source = "mewtwo" + i + ".png",
+					HeightRequest = 180,
+					WidthRequest = 120,
+					Aspect = Aspect.AspectFit,
+				};
+
+				imageButton.Clicked += ImageButton_Clicked;
+
+				// add image to FlexLayout
+				flexLayout.Children.Add(imageButton);
+			}
+		}
 	}
 
 	private void ImageButton_Clicked(object sender, EventArgs e)
