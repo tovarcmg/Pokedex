@@ -15,14 +15,14 @@ public partial class App : Application
 
         pokemonImageCounts = new List<Pokemon>
         {
-            new Pokemon("Slowbro","Agua, Psíquico", 10),
-            new Pokemon("Charizard","Fuego, Volador", 10),
-            new Pokemon("Dragonite","Dragón, Volador", 1),
-            new Pokemon("Eevee","Normal", 1),
-            new Pokemon("Mewtwo","Psíquico", 6),
-            new Pokemon("Pikachu","Eléctrico", 1),
-            new Pokemon("Gengar","Fantasma, Veneno", 1),
-            new Pokemon("Blastoise","Agua", 1)
+            new Pokemon("Slowbro","Agua, Psíquico", 10,"psi.png"),
+            new Pokemon("Charizard","Fuego, Volador", 10,"psi.png"),
+            new Pokemon("Dragonite","Dragón, Volador", 1,"psi.png"),
+            new Pokemon("Eevee","Normal", 1,"psi.png"),
+            new Pokemon("Mewtwo","Psíquico", 6,"psi.png"),
+            new Pokemon("Pikachu","Eléctrico", 1,"psi.png"),
+            new Pokemon("Gengar","Fantasma, Veneno", 1,"psi.png"),
+            new Pokemon("Blastoise","Agua", 1,"psi.png")
         };
 
         MainPage = new AppShell();

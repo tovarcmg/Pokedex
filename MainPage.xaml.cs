@@ -28,7 +28,7 @@ public partial class MainPage : ContentPage
     {
         foreach (var item in ((App)App.Current).pokemonImageCounts)
         {
-            MyItems.Add(new Pokemon(item.nombre, item.desc, 0));
+            MyItems.Add(new Pokemon(item.nombre, item.desc, 0, "psi.png"));
         }
     }
 
@@ -37,13 +37,15 @@ public partial class MainPage : ContentPage
         public string nombre { get; set; }
         public string desc { get; set; }
         public int cartas { get; set; }
+        public string ImageUrl { get; set; }
 
         // Constructor for easier initialization
-        public Pokemon(string _nombre, string _desc, int _cartas)
+        public Pokemon(string _nombre, string _desc, int _cartas, string _ImageUrl)
         {
             nombre = _nombre;
             desc = _desc;
             cartas = _cartas;
+            ImageUrl = _ImageUrl;
         }
     }
 }

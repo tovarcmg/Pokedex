@@ -6,9 +6,32 @@
     <ListView x:Name="ListView1" ItemSelected="lstAuditorias_ItemSelected">
         <ListView.ItemTemplate>
             <DataTemplate>
-                <TextCell Text="{Binding nombre}"
-                    TextColor="Salmon"
-                          Detail="{Binding desc}"/>
+                <ViewCell>
+                <Grid Padding="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.RowSpan="2"
+                        Margin="5"
+                           Source="{Binding ImageUrl}"
+                           Aspect="AspectFill"
+                           HeightRequest="30"
+                           WidthRequest="30" />
+                    <Label Grid.Column="1"
+                           Text="{Binding nombre}"
+                           FontAttributes="Bold" />
+                    <Label Grid.Row="1"
+                           Grid.Column="1"
+                           Text="{Binding desc}"
+                           FontAttributes="Italic"
+                           VerticalOptions="End" />
+                </Grid>
+            </ViewCell>
             </DataTemplate>
         </ListView.ItemTemplate>
     </ListView>
