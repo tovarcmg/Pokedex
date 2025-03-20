@@ -1,4 +1,6 @@
-﻿namespace MauiApp2;
+﻿using DotNet.Meteor.HotReload.Plugin;
+
+namespace MauiApp2;
 
 public static class MauiProgram
 {
@@ -7,6 +9,9 @@ public static class MauiProgram
 		var builder = MauiApp.CreateBuilder();
 		builder
 			.UseMauiApp<App>()
+
+			.EnableHotReload()
+
 			.ConfigureFonts(fonts =>
 			{
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
