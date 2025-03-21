@@ -15,9 +15,13 @@ public partial class App : Application
 
         pokemonImageCounts = new List<Pokemon>
         {
+            new Pokemon("Slowpoke","Agua, Psíquico", 1,"psi.png"),
             new Pokemon("Slowbro","Agua, Psíquico", 10,"psi.png"),
+            new Pokemon("Cresselia","Psíquico", 1,"psi.png"),
+            new Pokemon("Jynx","Psíquico", 1,"psi.png"),
             new Pokemon("Charizard","Fuego, Volador", 10,"psi.png"),
             new Pokemon("Dragonite","Dragón, Volador", 1,"psi.png"),
+            new Pokemon("Arceus","Normal", 1,"psi.png"),
             new Pokemon("Eevee","Normal", 1,"psi.png"),
             new Pokemon("Mewtwo","Psíquico", 6,"psi.png"),
             new Pokemon("Pikachu","Eléctrico", 1,"psi.png"),

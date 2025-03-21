@@ -1,0 +1,394 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MauiApp2.Cartas"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Cartas">
+
+    <ScrollView>
+    <StackLayout Padding="10" BackgroundColor="Transparent">
+        <Label Padding="5" Text="Arrastra las cartas que vas utilizando" />
+        <FlexLayout
+            Padding="10"
+            BackgroundColor="Transparent"
+            HeightRequest="330"
+            HorizontalOptions="FillAndExpand"
+            JustifyContent="SpaceBetween"
+            WidthRequest="340"
+            Wrap="Wrap">
+
+            <Image
+                HeightRequest="80"
+                Source="back.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DropGestureRecognizer AllowDrop="True" Drop="DropGestureRecognizer_Drop_1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image
+                HeightRequest="80"
+                Source="back.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DropGestureRecognizer AllowDrop="True" Drop="DropGestureRecognizer_Drop_1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image
+                HeightRequest="80"
+                Source="back.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DropGestureRecognizer AllowDrop="True" Drop="DropGestureRecognizer_Drop_1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image
+                HeightRequest="80"
+                Source="back.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DropGestureRecognizer AllowDrop="True" Drop="DropGestureRecognizer_Drop_1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image
+                HeightRequest="80"
+                Source="back.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DropGestureRecognizer AllowDrop="True" Drop="DropGestureRecognizer_Drop_1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image
+                HeightRequest="80"
+                Source="back.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DropGestureRecognizer AllowDrop="True" Drop="DropGestureRecognizer_Drop_1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image
+                HeightRequest="80"
+                Source="back.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DropGestureRecognizer AllowDrop="True" Drop="DropGestureRecognizer_Drop_1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image
+                HeightRequest="80"
+                Source="back.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DropGestureRecognizer AllowDrop="True" Drop="DropGestureRecognizer_Drop_1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image
+                HeightRequest="80"
+                Source="back.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DropGestureRecognizer AllowDrop="True" Drop="DropGestureRecognizer_Drop_1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image
+                HeightRequest="80"
+                Source="back.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DropGestureRecognizer AllowDrop="True" Drop="DropGestureRecognizer_Drop_1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image
+                HeightRequest="80"
+                Source="back.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DropGestureRecognizer AllowDrop="True" Drop="DropGestureRecognizer_Drop_1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image
+                HeightRequest="80"
+                Source="back.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DropGestureRecognizer AllowDrop="True" Drop="DropGestureRecognizer_Drop_1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image
+                HeightRequest="80"
+                Source="back.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DropGestureRecognizer AllowDrop="True" Drop="DropGestureRecognizer_Drop_1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image
+                HeightRequest="80"
+                Source="back.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DropGestureRecognizer AllowDrop="True" Drop="DropGestureRecognizer_Drop_1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image
+                HeightRequest="80"
+                Source="back.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DropGestureRecognizer AllowDrop="True" Drop="DropGestureRecognizer_Drop_1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image
+                HeightRequest="80"
+                Source="back.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DropGestureRecognizer AllowDrop="True" Drop="DropGestureRecognizer_Drop_1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image
+                HeightRequest="80"
+                Source="back.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DropGestureRecognizer AllowDrop="True" Drop="DropGestureRecognizer_Drop_1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image
+                HeightRequest="80"
+                Source="back.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DropGestureRecognizer AllowDrop="True" Drop="DropGestureRecognizer_Drop_1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image
+                HeightRequest="80"
+                Source="back.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DropGestureRecognizer AllowDrop="True" Drop="DropGestureRecognizer_Drop_1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image
+                HeightRequest="80"
+                Source="back.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DropGestureRecognizer AllowDrop="True" Drop="DropGestureRecognizer_Drop_1" />
+                </Image.GestureRecognizers>
+            </Image>
+        </FlexLayout>
+
+        <FlexLayout
+            Margin="0,10,0,0"
+            Padding="10"
+            BackgroundColor="Transparent"
+            HeightRequest="330"
+            HorizontalOptions="FillAndExpand"
+            JustifyContent="SpaceBetween"
+            WidthRequest="340"
+            Wrap="Wrap">
+
+            <Image
+                HeightRequest="80"
+                Source="jynx1.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DragGestureRecognizer CanDrag="True" DragStarting="DragGestureRecognizer_DragStarting_1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image
+                HeightRequest="80"
+                Source="cresselia1.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DragGestureRecognizer CanDrag="True" DragStarting="DragGestureRecognizer_DragStarting_1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image
+                HeightRequest="80"
+                Source="cresselia1.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DragGestureRecognizer CanDrag="True" DragStarting="DragGestureRecognizer_DragStarting_1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image
+                HeightRequest="80"
+                Source="mewtwo3.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DragGestureRecognizer CanDrag="True" DragStarting="DragGestureRecognizer_DragStarting_1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image
+                HeightRequest="80"
+                Source="arceus1.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DragGestureRecognizer CanDrag="True" DragStarting="DragGestureRecognizer_DragStarting_1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image
+                HeightRequest="80"
+                Source="slowbro6.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DragGestureRecognizer CanDrag="True" DragStarting="DragGestureRecognizer_DragStarting_1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image
+                HeightRequest="80"
+                Source="slowbro7.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DragGestureRecognizer CanDrag="True" DragStarting="DragGestureRecognizer_DragStarting_1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image
+                HeightRequest="80"
+                Source="slowbro8.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DragGestureRecognizer CanDrag="True" DragStarting="DragGestureRecognizer_DragStarting_1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image
+                HeightRequest="80"
+                Source="slowpoke1.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DragGestureRecognizer CanDrag="True" DragStarting="DragGestureRecognizer_DragStarting_1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image
+                HeightRequest="80"
+                Source="slowbro10.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DragGestureRecognizer CanDrag="True" DragStarting="DragGestureRecognizer_DragStarting_1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image
+                HeightRequest="80"
+                Source="slowbro1.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DragGestureRecognizer CanDrag="True" DragStarting="DragGestureRecognizer_DragStarting_1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image
+                HeightRequest="80"
+                Source="slowbro2.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DragGestureRecognizer CanDrag="True" DragStarting="DragGestureRecognizer_DragStarting_1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image
+                HeightRequest="80"
+                Source="slowbro3.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DragGestureRecognizer CanDrag="True" DragStarting="DragGestureRecognizer_DragStarting_1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image
+                HeightRequest="80"
+                Source="slowbro4.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DragGestureRecognizer CanDrag="True" DragStarting="DragGestureRecognizer_DragStarting_1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image
+                HeightRequest="80"
+                Source="slowbro5.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DragGestureRecognizer CanDrag="True" DragStarting="DragGestureRecognizer_DragStarting_1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+<Image
+                HeightRequest="80"
+                Source="slowbro5.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DragGestureRecognizer CanDrag="True" DragStarting="DragGestureRecognizer_DragStarting_1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image
+                HeightRequest="80"
+                Source="slowbro5.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DragGestureRecognizer CanDrag="True" DragStarting="DragGestureRecognizer_DragStarting_1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image
+                HeightRequest="80"
+                Source="slowbro5.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DragGestureRecognizer CanDrag="True" DragStarting="DragGestureRecognizer_DragStarting_1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image
+                HeightRequest="80"
+                Source="slowbro5.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DragGestureRecognizer CanDrag="True" DragStarting="DragGestureRecognizer_DragStarting_1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image
+                HeightRequest="80"
+                Source="slowbro5.png"
+                VerticalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <DragGestureRecognizer CanDrag="True" DragStarting="DragGestureRecognizer_DragStarting_1" />
+                </Image.GestureRecognizers>
+            </Image>
+        </FlexLayout>
+    </StackLayout>
+    </ScrollView>
+
+</ContentPage>

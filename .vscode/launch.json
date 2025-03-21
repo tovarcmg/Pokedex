@@ -8,7 +8,6 @@
             "name": ".NET Meteor Debugger",
             "type": "dotnet-meteor.debugger",
             "request": "launch",
-            "profilerMode": "trace",
             "preLaunchTask": "dotnet-meteor: Build"
         }
     ]
