@@ -26,22 +26,24 @@ public partial class MainPage : ContentPage
 
     public void cargarPokemones()
     {
-        foreach (var item in ((App)App.Current).pokemonImageCounts)
+        foreach (var item in ((App)App.Current).pokemonImageCounts.OrderBy(x => x.id))
         {
-            MyItems.Add(new Pokemon(item.nombre, item.desc, 0, "psi.png"));
+            MyItems.Add(new Pokemon(item.id, item.nombre, item.desc, 0, item.ImageUrl));
         }
     }
 
     public class Pokemon
     {
+        public int id { get; set; }
         public string nombre { get; set; }
         public string desc { get; set; }
         public int cartas { get; set; }
         public string ImageUrl { get; set; }
 
         // Constructor for easier initialization
-        public Pokemon(string _nombre, string _desc, int _cartas, string _ImageUrl)
+        public Pokemon(int _id, string _nombre, string _desc, int _cartas, string _ImageUrl)
         {
+            id = _id;
             nombre = _nombre;
             desc = _desc;
             cartas = _cartas;
