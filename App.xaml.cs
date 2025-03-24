@@ -28,7 +28,8 @@ public partial class App : Application
             new Pokemon(150,"Mewtwo","Psíquico", 6,"psi.png"),
             new Pokemon(25,"Pikachu","Eléctrico", 1,"electrico.png"),
             new Pokemon(94,"Gengar","Fantasma, Veneno", 1,"psi.png"),
-            new Pokemon(9,"Blastoise","Agua", 1,"agua.png")
+            new Pokemon(9,"Blastoise","Agua", 1,"agua.png"),
+            new Pokemon(37,"Vulpix","Fuego", 1,"fuego.png")
         };
 
         MainPage = new AppShell();
