@@ -28,7 +28,7 @@ public partial class MainPage : ContentPage
     {
         foreach (var item in ((App)App.Current).pokemonImageCounts.OrderBy(x => x.id))
         {
-            MyItems.Add(new Pokemon(item.id, item.nombre, item.desc, 0, item.ImageUrl));
+            MyItems.Add(new Pokemon(item.id, item.nombre, item.desc, item.cartas, item.ImageUrl));
         }
     }
 
@@ -39,6 +39,7 @@ public partial class MainPage : ContentPage
         public string desc { get; set; }
         public int cartas { get; set; }
         public string ImageUrl { get; set; }
+        public string no { get; set; }
 
         // Constructor for easier initialization
         public Pokemon(int _id, string _nombre, string _desc, int _cartas, string _ImageUrl)
@@ -48,6 +49,7 @@ public partial class MainPage : ContentPage
             desc = _desc;
             cartas = _cartas;
             ImageUrl = _ImageUrl;
+            no = _id.ToString().PadLeft(4, '0');
         }
     }
 }

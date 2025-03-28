@@ -29,9 +29,31 @@ public partial class App : Application
             new Pokemon(25,"Pikachu","Eléctrico", 1,"electrico.png"),
             new Pokemon(94,"Gengar","Fantasma, Veneno", 1,"psi.png"),
             new Pokemon(9,"Blastoise","Agua", 1,"agua.png"),
-            new Pokemon(37,"Vulpix","Fuego", 1,"fuego.png")
+            new Pokemon(37,"Vulpix","Fuego", 1,"fuego.png"),
+            new Pokemon(38,"Ninetales","Fuego", 2,"fuego.png"),
+            new Pokemon(384,"Rayquaza","Dragón, Volador", 1,"dragon.png"),
+            new Pokemon(143,"Snorlax","Normal", 1,"normal.png")
         };
 
         MainPage = new AppShell();
     }
+
+    protected override Window CreateWindow(IActivationState activationState)
+    {
+        var windows = base.CreateWindow(activationState);
+
+        windows.Height = 650;
+        windows.MaximumHeight = 650;
+        windows.MinimumHeight = 650;
+        windows.Width = 400;
+        windows.MaximumWidth = 400;
+        windows.MinimumWidth = 400;
+
+        // Center the window
+        windows.X = (windows.Width / 2) + 400;
+        windows.Y = 100;
+
+        return windows;
+    }
+
 }
